@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+  }
+  
+
+  .roboto{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin:0 auto;
+  }
+
+
+
+  .papa{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    
+
+
+  }
+
+ .caja{
+     color: #28a745;
+ }
+
+
+
+ 

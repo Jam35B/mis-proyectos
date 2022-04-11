@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title><!--titulo de la pagina-->
+    <link rel="stylesheet" href="style.css"> <!--link que vincula la pagina con el css correspondiente-->
+    <script src="https://kit.fontawesome.com/c4a5beda34.js" crossorigin="anonymous"></script><!--link que vincula la página con font awesome-->
+    <script defer src="index.js"></script><!--Se vincula el archivo index.js. Con defer se refiere a que diferira la ejecucion del javascript hasta que se haya cargado completamente el DOM -->
+  </head>
+
+  <body>
+    <header class="header"><!--las class o clase, sirven para llamarlas anteponiendo un "." antes del nombre y asi poder modificar sus caracteristicas como color, tamaño, etc.-->
+      <nav class="nav">
+        <a href="#" class="logo nav-link">Logo</a><!--un elemento puede tener varias clases-->
+        <button class="nav-toggle" aria-label="Abrir menú"><!--Este boton de clase nav-toggle es el encargado de contener los elementos de la barra de navegacion y mostrarlos en caso de que la resolucion sea menor a la de un monitor de pc-->
+          <i class="fa-solid fa-bars"></i> <!-- Elemento i generado por font awesome para porder hacer usos de los iconos designados-->
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">blog</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Videos</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Sobre mi</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link nav-menu-link_active">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+
+</html>
